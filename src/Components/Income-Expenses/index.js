@@ -1,9 +1,9 @@
 import React from "react";
 import { useGlobal } from "../../Context/GlobalContext";
 function IncomeExpenses() {
-  const { transactions } = useGlobal();
+  const { amounts } = useGlobal();
 
-  const amounts = transactions.map((transaction) => transaction.amount);
+  // const amounts = transactions.map((transaction) => transaction.amount);
 
   const income = amounts
     .filter((item) => item > 0)
