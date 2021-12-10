@@ -1,6 +1,6 @@
 import React from "react";
-import { useGlobal } from "../../Context/GlobalContext";
 import TransactionItem from "../Transaction-Item";
+import { useGlobal } from "../../Context/GlobalContext";
 function TransactionList() {
   const { transactions } = useGlobal();
   // console.log(transactions);
