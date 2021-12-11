@@ -8,7 +8,7 @@ const initialState = {
     { id: 3, text: "Books 📚", amount: -63 },
     { id: 4, text: "Mouse 🖱", amount: -149 },
     { id: 5, text: "Bitcoin ₿", amount: 157 },
-    { id: 5, text: "Car Service 🛠", amount: -450 },
+    { id: 6, text: "Car Service 🛠", amount: -450 },
   ],
 };
 
